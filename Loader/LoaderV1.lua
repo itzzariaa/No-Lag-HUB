@@ -8,4 +8,5 @@ local scripts = {
 local url = scripts[game.PlaceId]
 if url then
     loadstring(game:HttpGetAsync(url))()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/untitled.lua"))()
 end
